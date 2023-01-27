@@ -11,6 +11,8 @@
 <script type="text/javascript">
 	$(function() {
 		<%	
+			//session.removeAttribute("userId");
+			//session.setAttribute("userId", "bbb");
 			String pPlace = null;
 			
 			if(session.getAttribute("address") != null){
